@@ -212,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function EditarJsonParte2(json,id) {
-    let id = json.WikiSimpson[id]._id
+   id = json.WikiSimpson[id]._id
     let tablacontenedor = document.querySelector(".tablacontenedor");
     let personaje = json.WikiSimpson[id].thing.personaje;
     let puntuacion = json.WikiSimpson[id].thing.puntuacion;
