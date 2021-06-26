@@ -1,0 +1,187 @@
+body{
+  background-color: #92d4f7;
+  font-family: cursive;
+}
+
+.contenedor p{
+  padding: 18px;
+}
+
+.contenedor h2,.contenedor h3{
+  padding-right: 35px;
+  padding-left: 35px;
+}
+.comentario{
+  font-size:
+}
+.contenedor{
+  padding-top: 63px;
+}
+
+.fondocolapsado{
+  background-color: #92D4F7;
+}
+
+.botonera{
+  border-bottom: 7px solid #ffce33;
+  background-color: #92D4F7 !important;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+
+}
+
+.boton button{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #92D4F7;
+}
+
+  .boton button:hover{
+    background-color: #ff95c5;
+    opacity: 0.9;
+  }
+
+.pie{
+  text-align: right;
+  padding-top: 10%;
+}
+
+.comentario{
+  text-decoration: none !important;
+}
+
+.table{
+  border: 7px solid #105E8E;
+  margin-top: 6%;
+  font-family: cursive;
+  font-size: 16px;
+  background-color: #B0DEF9;
+}
+
+  .table th{
+    font-size: 18px;
+    border: 6px solid #105E8E !important;
+  }
+
+  .table td{
+    border: 4px solid #107DC0;
+  }
+
+.ingresar{
+  margin-top: 3%;
+}
+
+.botones{
+  z-index: 0;
+}
+
+.icono{
+  width: 51px;
+  margin-right: 10px;
+}
+
+  .login{
+    background-color:#ff95c5;
+    color: #ffce33;
+    border-color: #ffce33;
+  }
+
+.login:hover{
+  background-color: #92D4F7;
+  border-color: transparent;
+}
+
+.table-personajes table{
+  border: 7px solid #105E8E;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 16px;
+  background-color: #B0DEF9;
+  margin-left: 3%;
+}
+
+  .table-personajes table th {
+    border: 5px solid #105E8E;
+    padding-right: 20%;
+    font-size: 18px;
+  }
+
+    .table-personajes table td{
+      border: 4px solid #107DC0;
+    }
+
+      .table-personajes table img{
+        height: 150px;
+        margin-left: 30px;
+      }
+
+        .table-personajes table li{
+          list-style-image: url(../images/minidona.ico);
+        }
+.contenedor{
+  float: left;
+}
+
+.propagandas{
+  float: right;
+  border: 5px solid  #ffce33;
+  margin-top: 57px;
+  padding: 3px;
+  height: auto;
+  background-color: #B0DEF9;
+}
+
+  .propagandas img{
+    width: 100%;
+    margin-bottom: 25%;
+  }
+
+    .propagandas img:hover{
+      opacity: 0.4;
+    }
+
+.fotomeme{
+  height: 40%;
+  margin-left: 45%;
+}
+
+  .fotomeme p{
+    font-size: 15px;
+  }
+
+    .imgmeme{
+      width: 180%;
+    }
+.bueno{
+  background-color:#B8FFE1;
+}
+
+.malo{
+  background-color: #CC263C;
+}
+
+.imgprincipal{
+  margin: 10px;
+}
+
+.botoneditar, .botoneliminar{
+  margin-left: 40px;
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.botoneliminar{
+  background-image: url(../images/eliminar.ico) !important;
+}
+
+.botoneditar{
+  background-image: url(../images/editar.ico) !important;
+  background-size: cover;
+}
