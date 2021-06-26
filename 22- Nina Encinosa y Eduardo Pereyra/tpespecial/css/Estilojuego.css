@@ -1,0 +1,96 @@
+/*Id's*/
+#botoncomienzo{
+  background-color: #ffa014;
+  padding: 0.5%;
+}
+
+#botoncomienzo, #botonconfirmar{
+    font-family: cursive;
+    margin: 0.5%;
+}
+
+#botonconfirmar{
+  background-color: #ffce33;
+}
+
+/*General*/
+body{
+    background-color: #92d4f7;
+    font-family: cursive;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  background-color: #ffce33;
+  border-radius: 15px;
+}
+
+h4{
+  text-align: right;
+  margin-top: 34%;
+  font-family: serif;
+}
+
+/*Clases*/
+.confirmar{
+  clear: both;
+  margin-left: 40%;
+  margin-top: 30%;
+}
+
+.homeroconfirmar{
+  width: 20%;
+}
+
+.cartas{
+   width: 80%;
+   float: left;
+   margin-top: 8%;
+}
+
+  .carta{
+    float:left;
+    padding-right: 3%;
+  }
+
+  .carta img{
+    width: 180px;
+    padding-left: 10%;
+  }
+
+.ocultarTiempo, .ocultar{
+  display: none;
+}
+
+.tiempo{
+  border: 3px solid #105E8E;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 16px;
+  background-color: #B0DEF9;
+}
+
+.tabla_actual{
+  margin-top: 36%;
+}
+
+.tabla_partidas, .tabla_actual{
+  border: 7px solid #105E8E;
+  border-radius: 10px;
+  font-family: cursive;
+  font-size: 16px;
+  background-color: #B0DEF9;
+  margin-right: 3%;
+}
+
+.tabla_partidas td, .tabla_actual td{
+  border: 4px solid #107DC0;
+  background-color: #ddf2fd;
+}
+
+.tablas{
+  float: right;
+  width: 17%;
+}
